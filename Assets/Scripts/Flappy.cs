@@ -34,12 +34,12 @@ public class Flappy : MonoBehaviour
         }
     }
     
-    /*private void OnCollisionEnter2D(Collision2D collision) {
+    private void OnCollisionEnter2D(Collision2D collision) {
         if(collision.gameObject.tag=="EndGame"){
             isDead=true;
             Time.timeScale=0;
 
             DeathScreen.SetActive(true);
         }
-    }*/
+    }
 }
